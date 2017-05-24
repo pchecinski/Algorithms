@@ -44,8 +44,7 @@ namespace Shaker {
             }
             catch (Exception e) {
                 Console.WriteLine("Wystąpił błąd: " + e.Message);
-                Console.WriteLine(numbers[0]);
-
+                
                 if (debug) {
                     Console.ReadKey();
                 }
@@ -78,6 +77,9 @@ namespace Shaker {
             }
 
             Console.WriteLine(numbers[0]);
+            if (debug) {
+                Console.ReadKey();
+            }
         }
     }
 }
